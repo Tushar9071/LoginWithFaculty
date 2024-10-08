@@ -1,0 +1,30 @@
+/* Navbar.css */
+
+/* Ensure the navbar stays at the top when scrolling */
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+  
+  /* Customize navbar links */
+  .nav-link {
+    color: white;
+    font-size: 18px;
+    margin-right: 15px;
+  }
+  
+  .nav-link:hover {
+    color: #ddd;
+  }
+  
+  /* Adjust the logo style */
+  .navbar-logo img {
+    max-height: 40px;
+    width: auto;
+  }
+  
+  .navbar-dark .navbar-logo img {
+    filter: brightness(0) invert(1); /* Ensure the logo is visible in dark mode */
+  }
+  
